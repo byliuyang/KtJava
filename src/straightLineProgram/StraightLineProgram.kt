@@ -25,8 +25,8 @@ fun maxArgs(expression: Expression): Int {
  * Tells the maximum num- ber of arguments of any print statement within any subexpression of a given statement.
  *
  * For example,
- * prog => a := 5+3; b := (print(a, a-1), 10*a); print(b)
- * maxargs(prog) is 2
+ * program => a := 5+3; b := (print(a, a-1), 10*a); print(b)
+ * maxArgs(program) is 2
  */
 fun maxArgs(statement: Statement): Int {
     when (statement) {
