@@ -1,4 +1,4 @@
-package straightLineProgram.expressions
+package expressions
 
 enum class BinaryOperator {
     PLUS,

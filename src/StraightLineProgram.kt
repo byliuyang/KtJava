@@ -1,13 +1,11 @@
-package straightLineProgram
-
 import com.sun.nio.sctp.IllegalUnbindException
-import straightLineProgram.expressionLists.LastExpressionList
-import straightLineProgram.expressionLists.PairExpressionList
-import straightLineProgram.expressions.*
-import straightLineProgram.statements.AssignStatement
-import straightLineProgram.statements.CompoundStatement
-import straightLineProgram.statements.PrintStatement
-import straightLineProgram.statements.Statement
+import expressionLists.LastExpressionList
+import expressionLists.PairExpressionList
+import expressions.*
+import statements.AssignStatement
+import statements.CompoundStatement
+import statements.PrintStatement
+import statements.Statement
 import java.lang.IllegalArgumentException
 
 fun maxArgs(expression: Expression): Int {

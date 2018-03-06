@@ -1,5 +1,5 @@
-package straightLineProgram.expressionLists
+package expressionLists
 
-import straightLineProgram.expressions.Expression
+import expressions.Expression
 
 data class PairExpressionList(val head: Expression, val tail: ExpressionList): ExpressionList()

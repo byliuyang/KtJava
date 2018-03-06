@@ -1,5 +1,5 @@
-package straightLineProgram.expressions
+package expressions
 
-import straightLineProgram.statements.Statement
+import statements.Statement
 
 data class SequenceExpression(val statement: Statement, val expression: Expression): Expression()

@@ -1,3 +1,0 @@
-package straightLineProgram.expressionLists
-
-abstract class ExpressionList
