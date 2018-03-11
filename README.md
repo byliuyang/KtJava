@@ -42,7 +42,7 @@ Output:
 
 ## Author
 
-[Harry Liu]() - **Initial works**
+[Harry Liu](https://github.com/byliuyang) - **Initial works**
 
 ## License
 
